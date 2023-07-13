@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Medias in HTML5</title>
+</head>
+<body>
+    <h1>Dynamic Image</h1>
+    <p>Try to open this site in different devices or increase and decrease the size in your browser. </p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagens/pic-S.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="Imagens/pic-M.png" type="image/png">
+        <img src="Imagens/pic-B.png" alt="Flex image">
+    </picture>
+
+    <h1>Playing audio </h1>
+    <p>Learning how to play audios in HTML5.</p>
+    <audio src="media/addict-inst.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG, formats to play audio on sites-->
+    <audio preload="metadata" controls>
+        <source src="media/ijustwanna-inst.mp3" type="audio/mpeg">
+        <!--This message below will only appears if the it's not compatible with the browser-->
+        <p>Unfortunately your browser can't play the audio. <a href="media/ijustwanna-inst.mp3">Click here to download the file. MP3</a></p>
+    </audio>
+</body>
+</html>

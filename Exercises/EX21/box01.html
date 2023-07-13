@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+
+            /*border: 10px solid darkslategray;*/
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /*padding: 10px 10px 10px 10px; 
+              padding: 10px;
+              padding: 10px 20px;
+            if all are the same, you type it only one time not four. If you put 2 different the first one it's for the top and bottom and the second for right and left;*/
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 30px;
+            margin-left: 10px;
+
+            /*margin: 20px 20px 40px 20px;
+              margin: 20px auto 40px auto
+            you can put auto in the sides only
+            */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+            /*ouline: 5px dashed salmon; */
+        }
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Example of box-level</h1>
+    <p>Paragraphs are also examples of box-level, but the <a href="#">links are examples of inline level</a>. Let's see how everything works.</p>
+</body>
+</html>

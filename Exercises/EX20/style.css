@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1#maintitle{
+    text-align: center;
+}
+
+.subtitle{
+    color: rgb(234, 0, 255);
+}
+
+div:hover{
+    color: red;
+}

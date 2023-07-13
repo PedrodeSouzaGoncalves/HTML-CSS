@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Videos with HTML5</title>
+</head>
+<body>
+    <h1>Inserting locally hosted videos.</h1>
+    <p>This video is hosted on my own server.</p>
+
+    <video src="media/video.m4v" width="560" controls></video>
+    <!-- In the class it was said to put different types in order to prevent any incompatibility, it can happen that a browser don't read MP4, OGV or M4V for example. I only used one for memory issues -->
+
+    <video width="560" poster="images/matrix.png" controls>
+        <source src="media/video.m4v" type="video/mp4">
+        <p>Your browser is not compatible, you can't play the video.</p>
+    </video>
+    <h1>Inserting YouTube videos</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--Inserting videos from YouTube, the person accessing and playing the video will consume data from YouTube server not from the website itself and the previous example -->
+    <h1>Inserting videos from Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/330207644?h=6a9e658aaf" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Flexible Images</title>
+</head>
+<body>
+    <h1>Flexible Image</h1>
+    <p>Are you seeing the whole image? Try to increase the size of your window to have a better experience.</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="images/small.png" type="image/png">
+        <source media="(max-width:1200px)" srcset="images/medium.png" type="image/png">
+        <img src="images/big.png" alt="Big Image">
+    </picture>
+    
+</body>
+</html>

@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-image:linear-gradient(to top, #069e1d, rgb(0, 68, 0));
+    background-attachment: fixed;
+    padding: 1.5px 2px 1px 2px;
+    margin: -12px;
+    color: white;
+}
+
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+    margin: 0px;
+}
+
+menu{
+    padding: 0px 0px 0px 10px;
+}
+menu > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+a{
+    margin: 2px;
+    padding: 10px;
+    
+}
+
+a:hover{
+    background-color: rgba(245, 245, 245, 0.26);
+}
+
+span{
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'idroid';
+    font-weight: normal;
+    color: rgb(0, 95, 0);
+}
+
+h3{
+    font-family: 'idroid';
+    font-weight: normal;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.144), white);
+    padding: 0px 0px 0px 8px;
+    color: rgb(0, 95, 0);
+}
+
+main{
+    margin: 12px 150px 0px 150px;
+    text-align: justify;
+    background-color: white;
+    padding: 12px 5px;
+    border-radius: 0px 0px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main >section > p{
+    text-indent: 15px;
+}
+
+section#intro > p > a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 2px;
+}
+
+section#intro > p > a:hover{
+    background-color: darkgreen;
+    
+}
+
+section#Secondment > p > a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 2px;
+}
+
+section#Secondment > p > a:hover{
+    background-color: darkgreen;   
+}
+
+section#final > p > a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 2px;
+}
+
+section#final > p > a:hover{
+    background-color: darkgreen;
+}
+
+body{
+    background-color: lightgreen;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px -10px 0px;
+}
+
+iframe{
+    border: 16px solid darkgreen;
+}
+
+footer{
+    background-color: rgb(0, 68, 0);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 1.5px 2px 1px 2px;
+    margin: 10px -12px 10px -12px;
+}
+
+section#final{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    padding: 0px 0px 1px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+section#final > div{
+    color: white;
+    background-color: darkgreen;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+    padding: 6px 6px 6px 6px;
+    margin: 1px 0px 0px 0px;
+}
+
+section#final > p{
+    text-indent: 15px;
+    margin: 10px 7px 14px 7px;
+}
+
+div#video{
+    text-align: center;
+}
+
+main > section > p > span{
+    text-decoration: none;
+}
