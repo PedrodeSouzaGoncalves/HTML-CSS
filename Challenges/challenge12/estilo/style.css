@@ -38,6 +38,9 @@ a:hover{
 main{
     font-family: 'Sriracha', cursive;
     text-align: left;
+    line-height: 2.5em;
+    font-style: italic;
+    font-size: medium;
 }
 
 #Joana{
@@ -48,12 +51,24 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    font-style: italic;
+    padding: 25px 0px 25px 25px;
+}
+
+#livro{
+    background-image: url(../imagens/background002.jpg);
+    max-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 25px 0px 25px 25px;
 }
 
 p{
     font-weight: 600;
     font-size: large;
+    padding: 0px 0px 0px 25px;
 }
 
 footer{
