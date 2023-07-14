@@ -20,7 +20,7 @@ header{
 
 header h1{
     font-family: 'Passion One', cursive;
-    font-size: 4em;
+    font-size: 10vh;
     color: white;
     font-weight: 500;
 }
@@ -41,13 +41,14 @@ main{
     line-height: 2.5em;
     font-style: italic;
     font-size: medium;
+    padding-bottom: 60px;
 }
 
 #Joana{
     background-image: url(../imagens/background001.jpg);
     max-height: 500px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -58,7 +59,7 @@ main{
     background-image: url(../imagens/background002.jpg);
     max-height: 500px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -78,4 +79,10 @@ footer{
     background-color: black;
     color: white;
     font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
