@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: grey;
+            color: white;
+        }
+
+        td.number{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Big Tables</h1>
+    <!--Anatomy of big tables
+    Table
+        Caption
+        Thead
+            TR, TD, TH
+        Tbody
+            TR, TD, TH
+        Tfoot
+            TR, TD, TH
+    -->
+    <table>
+        <caption>Population from Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">State</th>
+                <th scope="col" style="width: 50px;">Population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="number">44.420.459</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="number">20.538.718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="number">14.016.906</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="number">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="number">10.880.506</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="number">9.058.155</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="number">8.791.688</td>
+            </tr>
+            <tr>
+                <td>Para</td>
+                <td class="number">8.116.132</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="number">7.609.601</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td class="number">7.055.228</td>
+            </tr>
+            <tr>
+                <td>Maranhao</td>
+                <td class="number">6.775.152</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="number">3.974.495</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="number">3.941.175</td>
+            </tr>
+            <tr>
+                <td>Epirito Santo</td>
+                <td class="number">3.833.486</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="number">3.658.813</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="number">3.302.406</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td class="number">3.269.200</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="number">3.127.511</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="number">2.817.068</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="number">2.756.700</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="number">2.209.558</td>
+            </tr>
+            <tr>
+                <td>Rondonia</td>
+                <td class="number">1.581.016</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="number">1.511.459</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="number">830.026</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="number">733.508</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="number">636.303</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total Population</th>
+                <td class="number"><strong>203.062.512</strong></td>
+            </tr>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
