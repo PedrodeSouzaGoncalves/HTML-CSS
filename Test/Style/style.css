@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(../images/mirror.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 4px 0px 0px black;
+    font-size: 44px;
+    margin-bottom: 10px;
+
+}
+
+section#first{
+    background-color: black;
+    padding: 10px;
+    text-align: justify;
+    font-size: 22px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+    text-shadow: 2px 1px 0px black;
+    font-size: 33px;
+}
+
+section#second{
+    background-color: black;
+    padding: 10px;
+    font-size: 22px;
+    width: 380px;
+    margin-left: auto;
+    border-radius: 10px;
+}
